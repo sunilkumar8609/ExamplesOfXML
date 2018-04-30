@@ -1,0 +1,12 @@
+<h:table>
+  <h:tr>
+    <h:td>grapes</h:td>
+    <h:td>watermelon</h:td>
+  </h:tr>
+</h:table>
+
+<f:table>
+  <f:name>indian Coffee Table</f:name>
+  <f:width>50</f:width>
+  <f:length>100</f:length>
+</f:table>

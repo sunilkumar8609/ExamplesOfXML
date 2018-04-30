@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsl:stylesheet version="1.0" xmlns:xsl="G:\xml\Id.xml\Id.xml">
+
+<xsl:template match="/">
+<html>
+<body>
+  <h2>Work</h2>
+  <table border="1">
+    <tr>
+      <th style="text-align:left">employee1</th>
+      <th style="text-align:left">employee2</th>
+    </tr>
+    <xsl:for-each select="catalog/cd">
+    <tr>
+      <td><xsl:value-of select="employee1"/></td>
+      <td><xsl:value-of select="employee2"/></td>
+    </tr>
+    </xsl:for-each>
+  </table>
+</body>
+</html>
+</xsl:template>
+
+</xsl:stylesheet>
